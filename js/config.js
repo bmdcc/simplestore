@@ -19,11 +19,11 @@ $(function() {
 	    // how simpleCart should checkout, see the checkout reference for more info
 	    checkout: {
 	        type: "PayPal" ,
-	        email: "you@yours.com"
+	        email: "admin@toysdownunder.com"
 	    },
 
 	    // set the currency, see the currency reference for more info
-	    currency: "USD",
+	    currency: "AUD",
 
 	    // collection of arbitrary data you may want to store with the cart,
 	    // such as customer info
@@ -73,7 +73,7 @@ $(function() {
 	simpleStore.init({
 
 		// brand can be text or image URL
-		brand : "SimpleStore",
+		brand : "BMDCC Store",
 
 		// numder of products per row (accepts 1, 2 or 3)
 		numColumns : 3,
